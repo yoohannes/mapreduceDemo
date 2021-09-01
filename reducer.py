@@ -20,4 +20,3 @@ for line in sys.stdin:
          current_word=word
      if current_word==word:
          print('%s\t%s' % (current_word,current_count))
-         
