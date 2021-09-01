@@ -10,17 +10,6 @@ def count(data):
 
     print(new_dict)
 
-def map_reduce_job():
-    pass
-
-    #TODO write a map reduce job for word counter
-def mapper():
-    pass
-def reducer():
-    pass
-
-
-
 if __name__ == '__main__':
     with open('data.txt') as f:
         data=f.read()
